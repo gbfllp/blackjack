@@ -17,6 +17,10 @@ public class Participante {
         this.mao.limpar();
     }
 
+    public Mao getMao() {
+        return this.mao;
+    }
+
     private Scanner scanner = new Scanner(System.in);
 
     public void realizarJogada(Shoe shoe) {

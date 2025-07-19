@@ -12,10 +12,10 @@ public class Carta {
     }
 
     private int calcularPontos() {
-        if ("ÁS".equals(valor)) {
+        if ("A".equals(valor)) {
             return 11;
         }
-        if ("VALETE".equals(valor) || "DAMA".equals(valor) || "REI".equals(valor)) {
+        if ("J".equals(valor) || "K".equals(valor) || "Q".equals(valor)) {
             return 10;
         }
         return Integer.parseInt(valor);
@@ -23,6 +23,14 @@ public class Carta {
 
     public int getPontos() {
         return pontos;
+    }
+
+    public String getValor() {
+        return valor;
+    }
+
+    public String getNaipe() {
+        return naipe;
     }
 
     @Override

@@ -10,7 +10,7 @@ public class Shoe {
     public Shoe(int numeroDeBaralhos) {
         this.cartas = new ArrayList<>();
         String[] naipes = {"Copas", "Paus", "Ouros", "Espadas"};
-        String[] valores = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "VALETE", "DAMA", "REI", "ÁS"};
+        String[] valores = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
 
         for (int i = 0; i < numeroDeBaralhos; i++) {
             for (String naipe : naipes) {

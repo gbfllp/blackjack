@@ -30,6 +30,10 @@ public class Mao {
         cartas.clear();
     }
 
+    public List<Carta> getCartas() {
+        return cartas;
+    }
+
     @Override
     public String toString() {
         return cartas.toString();
